@@ -1,0 +1,154 @@
+{
+  "/api/app-session/v2/start": {
+    "request": "{\"app_type\":\"mod-pw-pc\",\"hwid\":\"EBB641A46CD99E3F\"}",
+    "response_json": {
+      "challenge_nonce": "c4d074dc4292453bd8a6b0b1ca329f0e50ff5577af15d794",
+      "challenge_secret": "158a8d45aa74cbd99361114fc531d5b5e786532061edcf866a5041c5ac12815a",
+      "runtime_core": {
+        "version": 2,
+        "core": "05f051da5355103051703c59db2f3ef6894c89df53cb6b843a8e114cb8bfe394",
+        "lease_until": 1779175185,
+        "ttl_seconds": 120,
+        "features": {
+          "aimbot": {
+            "core": "3f27bd1464b62d1422adfc77e27d92a64f16269276f3aa194542a1ba9b6bbe1c",
+            "lease_until": 1779175185,
+            "policy": "required"
+          },
+          "auto_mine": {
+            "core": "57c69aa8ae9566eac58eb690e7694d7ca800c83271bfaeeaff22f914a88821b7",
+            "lease_until": 1779175185,
+            "policy": "required"
+          },
+          "cloud_resolver": {
+            "core": "ed1f4bd95c43174458a7b08b9dfd52fbcb3b80844fefc83ca4bb0b6779dda04a",
+            "lease_until": 1779175185,
+            "policy": "required"
+          },
+          "deep_nether": {
+            "core": "c753977dbb4113dc88f79b9676ff6501ee14f3413737120b604947009bc99961",
+            "lease_until": 1779175185,
+            "policy": "required"
+          },
+          "esp": {
+            "core": "cfedf5d9e017193519eb90f0c320a6ffd9f8a0ab7d59ced75c5bf48b7449dcc1",
+            "lease_until": 1779175185,
+            "policy": "required"
+          },
+          "fishing": {
+            "core": "a55e68453a0cbe8993f9f825a87e7ef18ada79e58b49cbad3bba059518a2ec11",
+            "lease_until": 1779175185,
+            "policy": "required"
+          },
+          "misc_hooks": {
+            "core": "581c59a6d8f670cf64299059140e1684b4f0e5c6624090a6882704947b6fad57",
+            "lease_until": 1779175185,
+            "policy": "required"
+          },
+          "movement": {
+            "core": "cd97f2667c9ba323f197fdaf942f0a0f181df4cca9ff3fec7e8f13d874e0e4fd",
+            "lease_until": 1779175185,
+            "policy": "required"
+          },
+          "nether": {
+            "core": "9ef64d396869705e6edfe07b587e648b7500513deb31478b0594552868036ddd",
+            "lease_until": 1779175185,
+            "policy": "required"
+          },
+          "pnb": {
+            "core": "e6459e79540bbc361e24fedb61849d0b18fb479d5e2bad56896e5a123da6a42f",
+            "lease_until": 1779175185,
+            "policy": "required"
+          }
+        }
+      },
+      "secure_data": {
+        "c_bsn": "BSONValue",
+        "c_core": "05f051da5355103051703c59db2f3ef6894c89df53cb6b843a8e114cb8bfe394",
+        "c_nwp": "NetworkPlayer"
+      },
+      "server_time": 1779175065,
+      "session_uuid": "9c58b7f46d8a1487364a9f21503786dab57d6009405aad14",
+      "success": true,
+      "username": "hawkisprolmfao55"
+    },
+    "response_len": 1893
+  },
+  "/api/app-session/v2/heartbeat": {
+    "request": "{\"challenge_nonce\":\"c4d074dc4292453bd8a6b0b1ca329f0e50ff5577af15d794\",\"client_time\":1779175075,\"integrity_hash\":\"412102259a2ab82d\",\"proof\":\"728387ae3bb7529d307410d171ecd4b9593ab3cd615736522de4e0fbd6137259\",\"security_flags\":0,\"session_uuid\":\"9c58b7f46d8a1487364a9f21503786dab57d6009405aad14\"}",
+    "response_json": {
+      "message": "Heartbeatregistered",
+      "next_challenge_nonce": "76fa34af99c4f92fb65a82f129475877e9815eadddb348fe",
+      "runtime_core": {
+        "version": 2,
+        "core": "58719377d9383d5afad77961d85197312cbace79360980cd934927159808c456",
+        "lease_until": 1779175195,
+        "ttl_seconds": 120,
+        "features": {
+          "aimbot": {
+            "core": "cde73798229e5be74e3baed8d30306112ec23abe3c2cda05cc819c0a8f5b42b7",
+            "lease_until": 1779175195,
+            "policy": "required"
+          },
+          "auto_mine": {
+            "core": "a4b9bb031ac678a3f20fedcc2fc245624e16b981d540da6a6970130a3dc9f66a",
+            "lease_until": 1779175195,
+            "policy": "required"
+          },
+          "cloud_resolver": {
+            "core": "627e0b36253a81155dc1881d50995193e5beca30811111a858075380256f5c65",
+            "lease_until": 1779175195,
+            "policy": "required"
+          },
+          "deep_nether": {
+            "core": "7b2291c2314989286928cc3061d551a8753d9de36bd2047c3bc16280d70d6964",
+            "lease_until": 1779175195,
+            "policy": "required"
+          },
+          "esp": {
+            "core": "66a9401fa2dd59ebe7936de70f4293617681ac20e50cb778a3b485969383ce62",
+            "lease_until": 1779175195,
+            "policy": "required"
+          },
+          "fishing": {
+            "core": "9c06e968c13c1f0f72046f0365fdebba80e5c0f41e33afe4e6fc44ffa27dbac5",
+            "lease_until": 1779175195,
+            "policy": "required"
+          },
+          "misc_hooks": {
+            "core": "1140a2e8bb6af1679e077da69e7262893b5a77cf43332cb8d23a90342a543d94",
+            "lease_until": 1779175195,
+            "policy": "required"
+          },
+          "movement": {
+            "core": "3e07b19b5e2bffcf708bf12f73759b7a15e5a326e46d5f6ade9d9994931de2f5",
+            "lease_until": 1779175195,
+            "policy": "required"
+          },
+          "nether": {
+            "core": "79a1d31468c8c50e9010fa68eaaf14badbb36e532451414f845cc519340e6914",
+            "lease_until": 1779175195,
+            "policy": "required"
+          },
+          "pnb": {
+            "core": "a7d10f153e99492fa54573b7c0077ad2e6c30373ecc2c6c1b96fa5bb8da7810a",
+            "lease_until": 1779175195,
+            "policy": "required"
+          }
+        }
+      },
+      "security_score": 0,
+      "server_time": 1779175075,
+      "success": true
+    },
+    "response_len": 1642
+  },
+  "/api/app-session/v2/movement/command": {
+    "request": "{\"challenge_nonce\":\"86c54d86865fc1d8deaac1eb7b2f29bf7e94f1b80062cb62\",\"payload\":\"a539475063edeceebf6892110957149cdbaa430f927e13b53edf4a61f1f8a5f796b0422f33ba18dc68b5ed636bc6cddb8c281b400a68e80a41454ec09c8de4e497b47c706f1f97dc12c673a63ab58cd744bd20ca424a888fc4ed02cab788132c46c59de1785be8338c5762e11f28fb53e46a4f2880e8f442795233dec807c818c1260f36d7b48509a01d843b17a13d7b9681f9c368fcad0f6cad5ad42117b46f0f06977f9df51cb3477d63f78ff33c4eeb0eb5d8dfc85bf1d23034263d58c487ca32a3650131979c\",\"session_uuid\":\"9c58b7f46d8a1487364a9f21503786dab57d6009405aad14\"}",
+    "response_json": {
+      "payload": "c846895bc4406f08c8c467a4c2152c0045cccb4fc200f10a2417d9055f6645c772957cefa5249dada8edd80a48c3c6a2bc7260c5214c1ea1ba155ba31cd08dee74a239cb4c6941486df2a7a29c00edd9a820fdf2a88a38cd85cd3cc277e32e05c218824ef391a617119b6cac34d0b02ea93dcfe1b8c0c5048bce994e3fa2b2ef753d4cceaa69c537ef6c4d877f2e731f5dd59f6a472f753afe35485ae65588f0a788febb6d8326a0323f7b964707589f5365b317690c2d4d1a6b88b1c3c9e66834f0754b60beacbadf9be552b5c606321ce195df8a24895e6b0c97b1d5c0b3852537",
+      "success": true
+    },
+    "response_len": 481
+  }
+}
